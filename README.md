@@ -14,32 +14,32 @@ The enemies will have a random damage dealt to player every turn.
 And each quest will be assigning player to kill x amount of certain enemy. 
 For example, 
 
-Quest:
+*Quest:*
 
-Kill 3 Drakes 1/3
+*Kill 3 Drakes______1/3*
 
 in this case, the player has killed 1 Drake and has 2 more kills yet to complete. 
 
 ### Structure
-**Entity**
-- **Player**
-- **Quest**
-- **Skill**
-- **Enemies**
+#### **Entity**
+- **Player**_Health, Weapon, Damage, Skill Components
+- **Quest**_Quest Components
+- **Skill**_Skill, Damage Components
+- **Enemies**_Health, Damage Components
 	- Wyrmling
 	- Drake
 	- Dragon
-- **Weapon**
+- **Weapon**_Damage Components
 	- Longsword
 
-**Component**
+#### **Component**
 - **Health:**  Stores base health level and changes as receives damage and heal
 - **Weapon:**  Stores player attack damage
 - **Skill:**  Stores healing values, and special attack damage value
 - **Damage:**  Stores the damage that an entity deals
 - **Quest:** Stores the quests and the progress
 
-**System**
+#### **System**
 - **Health:**  Player/Enemy health calculation after an attack/skill.
 - **Render:**  Change display text accordingly.
 - **Input:**  Player chooses their action.
