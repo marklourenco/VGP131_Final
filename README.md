@@ -5,7 +5,7 @@
 This is a text-based-game we made for school while studying the Entity-Component-System (ECS) and C++ language. The goal is to create a fully functional game engine and apply it on a simple game to show it's capabilities. 
 We had two weeks to complete this project in June. Our goal is to utilize the ECS and make a fully functional game that lets players fight monsters to complete quests. 
 
-#### Features
+### Description
 Players have a health system, and they can also possess skills to attack or heal. 
 Player also have an chance to obtain a weapon that increases their attack damage. 
 
@@ -20,17 +20,17 @@ Kill 3 Drakes 1/3
 
 in this case, the player has killed 1 Drake and has 2 more kills yet to complete. 
 
-#### Structure
+### Structure
 **Entity**
 - Player
 - Quest
 - Skill
 - Enemies
-	1. Wyrmling
-	2. Drake
-	3. Dragon
+1. Wyrmling
+2. Drake
+3. Dragon
 - Weapon
-	1. Longsword
+1. Longsword
 
 **Component**
 - **Health:**  Stores base health level and changes as receives damage and heal
@@ -47,8 +47,8 @@ in this case, the player has killed 1 Drake and has 2 more kills yet to complete
 - **Combat:**   Any calculations relating to combat such as, damage, healing etc.
 
 
-#### Notice
+### Notice
 This game is not yet complete. We are still working on it! 
 
-#### License 
+### License 
 Our game cannot be used, reproduced, or modified for any non-commercial nor commercial use. 
