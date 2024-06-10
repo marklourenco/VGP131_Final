@@ -1,5 +1,5 @@
 ## Simple RPG in C++ With ECS
-### Made by [Mark Lourenco](https://github.com/marklourenco) [Morgan Chin Tang"](https://github.com/MorganChinTang) and [Narda Limon](https://github.com/Narda05)
+### Made by [Mark Lourenco](https://github.com/marklourenco) [Morgan Chin Tang](https://github.com/MorganChinTang) and [Narda Limon](https://github.com/Narda05)
 
 #### Overview
 This is a text-based-game we made for school while studying the Entity-Component-System (ECS) and C++ language. The goal is to create a fully functional game engine and apply it on a simple game to show it's capabilities. 
