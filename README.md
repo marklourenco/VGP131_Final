@@ -22,19 +22,19 @@ in this case, the player has killed 1 Drake and has 2 more kills yet to complete
 
 ### Structure
 **Entity**
-- Player
-- Quest
-- Skill
-- Enemies
-1. Wyrmling
-2. Drake
-3. Dragon
-- Weapon
-1. Longsword
+- **Player**
+- **Quest**
+- **Skill**
+- **Enemies**
+	- Wyrmling
+	- Drake
+	- Dragon
+- **Weapon**
+	- Longsword
 
 **Component**
 - **Health:**  Stores base health level and changes as receives damage and heal
-- **Weapon:**  Stores player¡¦s attack damage
+- **Weapon:**  Stores player attack damage
 - **Skill:**  Stores healing values, and special attack damage value
 - **Damage:**  Stores the damage that an entity deals
 - **Quest:** Stores the quests and the progress
