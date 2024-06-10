@@ -3,7 +3,7 @@
 
 #### Overview
 This is a text-based-game we made for school while studying the Entity-Component-System (ECS) and C++ language. The goal is to create a fully functional game engine and apply it on a simple game to show it's capabilities. 
-We had two weeks to complete this project in June. Our goal is to utilize the ECS and make a fully functional game that lets players complete quests to fight monsters. 
+We had two weeks to complete this project in June. Our goal is to utilize the ECS and make a fully functional game that lets players fight monsters to complete quests. 
 
 #### Features
 Players have a health system, and they can also possess skills to attack or heal. 
@@ -11,7 +11,7 @@ Player also have an chance to obtain a weapon that increases their attack damage
 
 The enemies will have a random damage dealt to player every turn. 
 
-And each quest will be assignming player to kill x ammount of certain enemy. 
+And each quest will be assigning player to kill x amount of certain enemy. 
 For example, 
 
 Quest:
@@ -19,6 +19,33 @@ Quest:
 Kill 3 Drakes 1/3
 
 in this case, the player has killed 1 Drake and has 2 more kills yet to complete. 
+
+#### Structure
+**Entity**
+- Player
+- Quest
+- Skill
+- Enemies
+	1. Wyrmling
+	2. Drake
+	3. Dragon
+- Weapon
+	1. Longsword
+
+**Component**
+- **Health:**  Stores base health level and changes as receives damage and heal
+- **Weapon:**  Stores player¡¦s attack damage
+- **Skill:**  Stores healing values, and special attack damage value
+- **Damage:**  Stores the damage that an entity deals
+- **Quest:** Stores the quests and the progress
+
+**System**
+- **Health:**  Player/Enemy health calculation after an attack/skill.
+- **Render:**  Change display text accordingly.
+- **Input:**  Player chooses their action.
+- **Quest:**   Quest status changes as enemies are defeated.
+- **Combat:**   Any calculations relating to combat such as, damage, healing etc.
+
 
 #### Notice
 This game is not yet complete. We are still working on it! 
