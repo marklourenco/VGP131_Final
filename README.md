@@ -13,8 +13,11 @@ The enemies will have a random damage dealt to player every turn.
 
 And each quest will be assignming player to kill x ammount of certain enemy. 
 For example, 
+
 Quest:
+
 Kill 3 Drakes 1/3
+
 in this case, the player has killed 1 Drake and has 2 more kills yet to complete. 
 
 #### Notice
