@@ -1,0 +1,177 @@
+----------------------------------------------------------------------------
+v0.2 ECS - 
+
+ENTITIES:
+- Added parent entity class which includes ID and name.
+- Vector to store components created.
+- Functions to add/remove components created.
+- Function to print entities created.
+- Function to get entity name created.
+
+- Player Entity created which holds a Health Component.
+
+COMPONENTS:
+- Added parent component which includes ID and deconstructor, as well as function to print component.
+
+- Damage Component created which holds damage integer.
+- Functions to get/set/print damage created.
+
+- Health Component created which holds damage integer.
+- Functions to get/set/print health created.
+
+- Quest Component created which holds quest progress and quest goal.
+- Functions to get/print quest progression created.
+
+- Skill Component created which holds quest skill damage.
+- Functions to get/set/print skill damage created.
+
+- Weapon Component created which holds quest weapon damage.
+- Functions to get/set/print weapon damage created.
+
+SYSTEMS:
+- Added parent entity class which includes a deconstructor and update function.
+
+- Damage System created to get health component of an entity and apply/update set damage to hp.
+
+ENGINE:
+- Vector created to store entities.
+- Set created to store systems.
+
+- Functions to add/print entities created.
+- Function to add systems created.
+- Function to apply updates created.
+
+MAIN:
+- Added player entity.
+- Added damage system.
+- Apply and print systems.
+
+----------------------------------------------------------------------------
+
+v0.3 ECS -
+
+ENTITIES:
+
+- Drake Entity created which holds a Health Component and Damage Component.
+- Wyrmling Entity created which holds a Health Component and Damage Component.
+- Dragon Entity created which holds a Health Component and Damage Component.
+
+- Weapon Entity created which holds a Damage Component.
+- Skill1 Entity created which holds a Damage Component.
+- Skill2 Entity created which holds a Damage Component.
+
+- Quest Entity created which holds a Quest Component.
+
+SYSTEMS:
+
+- Quest System created to increase the progress of an active quest.
+
+ENGINE:
+- Replaced vectors and sets with maps for storage.
+
+- Function to get components created.
+
+----------------------------------------------------------------------------
+
+v0.4 ECS -
+
+- Cleaned code up to avoid confusion.
+
+----------------------------------------------------------------------------
+
+v0.6 ECS -
+
+MAIN:
+
+- Added pseudocode for initial game flow.
+
+----------------------------------------------------------------------------
+
+v0.7 ECS -
+
+- REWORKED ECS.
+
+ENTITIES:
+- Added parent entity class which includes ID and name.
+- Constructor created.
+- Deconstructor created.
+
+- Player Entity created which holds a Health Component.
+- Enemy Entity created which holds a Health Component and Damage Component.
+
+COMPONENTS:
+- Damage Component created which holds damage integer.
+- Health Component created which holds health integer.
+
+SYSTEMS:
+- Damage System created to get health component of an entity and apply/update set damage to hp.
+
+ENGINE:
+- Map to store entities created.
+
+- Functions to create player/enemy.
+
+- Function to get an entity.
+
+- Functions to get health/damage components.
+
+- Function to print an entity and its components.
+
+MAIN:
+- Added player entity.
+- Added enemy entity.
+- Added health component acess.
+- Added damage system.
+
+- Print player and enemy entities.
+
+----------------------------------------------------------------------------
+
+v0.8 ECS -
+
+SYSTEMS:
+- Added parent system class to assign IDs.
+- Added function to get system ID.
+
+- Heal System created to get health component of an entity and apply/update set heal to hp.
+
+ENGINE:
+- Map to store systems created.
+
+- Access to Damage System.
+- Access to Heal System.
+
+MAIN:
+- Enemy entities specified as Wyrmling, Dragon, and Drake.
+
+----------------------------------------------------------------------------
+
+v0.9 ECS -
+
+ENTITIES:
+- Quest Entity created which holds a Quest Goal Component and Quest Progress Component.
+- Weapon Entity created which holds a Weapon Component.
+- Bash Skill Entity created which holds a Damage Component.
+- Heal Skill Entity created which holds a Heal Component.
+
+COMPONENTS:
+
+SYSTEMS:
+- Implemented escape function.
+- Implemented recover function.
+
+- Added Heal System.
+- Added Render System.
+- Added Input System.
+
+- Implemented various print functions.
+
+MAIN:
+- Added Quest Entities.
+- Added Weapon Entities created.
+- Added Quest System.
+- Added Render System.
+- Added Input System.
+- Added Heal System.
+
+- Completed game flow.
